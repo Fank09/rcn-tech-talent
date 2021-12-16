@@ -297,35 +297,50 @@ h4 {
 }
 #techTalent .search .job .job-list ul .jd .detail {
   font-family: "Lato", sans-serif !important;
-  font-weight: 300;
   color: #000;
   display: flex;
   flex-direction: column;
 }
-#techTalent .search .job .job-list ul .jd .detail .location,
-#techTalent .search .job .job-list ul .jd .detail .salary,
-#techTalent .search .job .job-list ul .jd .detail .exp {
-  display: flex;
+#techTalent .search .job .job-list ul .jd .detail .salary {
   align-items: center;
+  display: flex;
+  font-size: 1.3em;
+  font-weight: 300;
   justify-content: flex-start;
   line-height: 1.75;
 }
-#techTalent .search .job .job-list ul .jd .detail .location i,
-#techTalent .search .job .job-list ul .jd .detail .salary i,
-#techTalent .search .job .job-list ul .jd .detail .exp i {
-  font-size: 18px;
+#techTalent .search .job .job-list ul .jd .detail .salary i {
   color: #00a7ff;
+  font-size: 24px;
   margin-right: 10px;
+  width: 1.25em;
 }
-#techTalent .search .job .job-list ul .jd .detail .location span,
-#techTalent .search .job .job-list ul .jd .detail .salary span,
-#techTalent .search .job .job-list ul .jd .detail .exp span {
-  font-size: 1em;
+#techTalent .search .job .job-list ul .jd .detail .item {
+  display: table;
+  flex-direction: row;
 }
-#techTalent .search .job .job-list ul .jd .detail .excerp {
-  font-size: 15px;
+#techTalent .search .job .job-list ul .jd .detail .item .item-label {
+  display: table-cell;
   color: #4d4d4d;
-  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 15%;
+}
+#techTalent .search .job .job-list ul .jd .detail .item .item-data {
+  color: #4d4d4d;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#techTalent .search .job .job-list ul .jd .cv-btn {
+  padding-top: 1rem;
+}
+#techTalent .search .job .job-list ul .jd .cv-btn .btn {
+  justify-content: end;
+}
+#techTalent .search .job .job-list ul .jd .cv-btn .btn a {
+  padding: 0.5rem 1.5rem;
+  font-size: 1em;
+  font-weight: normal;
 }
 #techTalent .contact {
   background-image: url("../images/tech-talent/contact-bg.jpg");
@@ -392,6 +407,37 @@ h4 {
 #techTalent .contact .inner .details .list .item .link a {
   font-size: 1em;
   color: #ffffff;
+}
+#techTalent .request-cv .title h2 {
+  font-size: 1.75em !important;
+}
+#techTalent .request-cv .title h2 .position,
+#techTalent .request-cv .title h2 .cid {
+  color: #4d4d4d;
+}
+#techTalent .request-cv .form-section {
+  width: 500px;
+  margin: auto;
+}
+#techTalent .request-cv .form-section form .field {
+  margin-right: 0;
+  margin-bottom: 1rem;
+}
+#techTalent .request-cv .form-section form .field label {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+#techTalent .request-cv .form-section form .field label::after {
+  margin: 3px 0 0 8px !important;
+}
+#techTalent .request-cv .form-section form .field input[type=text] {
+  height: 42px;
+  padding: 0 0.75rem;
+  border: 1px solid #00a7ff !important;
+}
+#techTalent .request-cv .form-section .btn {
+  padding: 2rem 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -529,26 +575,22 @@ h4 {
   #techTalent .search .job .job-list ul .jd .heading .id {
     font-size: 16px;
   }
-  #techTalent .search .job .job-list ul .jd .detail .location,
-#techTalent .search .job .job-list ul .jd .detail .salary,
-#techTalent .search .job .job-list ul .jd .detail .exp {
-    line-height: 1.5;
+  #techTalent .search .job .job-list ul .jd .detail .salary {
+    font-size: 1.3em;
   }
-  #techTalent .search .job .job-list ul .jd .detail .location i,
-#techTalent .search .job .job-list ul .jd .detail .salary i,
-#techTalent .search .job .job-list ul .jd .detail .exp i {
-    font-size: 16px;
-    margin-right: 10px;
+  #techTalent .search .job .job-list ul .jd .detail .item {
+    display: block;
+    margin-bottom: 5px;
   }
-  #techTalent .search .job .job-list ul .jd .detail .location span,
-#techTalent .search .job .job-list ul .jd .detail .salary span,
-#techTalent .search .job .job-list ul .jd .detail .exp span {
-    font-size: 16px;
-  }
-  #techTalent .search .job .job-list ul .jd .detail .excerp {
-    font-size: 15px;
+  #techTalent .search .job .job-list ul .jd .detail .item .item-label {
+    display: table-cell;
     color: #4d4d4d;
-    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 15%;
+  }
+  #techTalent .search .job .job-list ul .jd .cv-btn .btn {
+    justify-content: center;
   }
   #techTalent .contact {
     background-image: url("../images/tech-talent/contact-bg-sp.jpg");

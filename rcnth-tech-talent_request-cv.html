@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>RCN Subpage</title>
+  <title>RCNTH Tech Talent - Request CV</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,6 +28,7 @@
   <link rel="stylesheet" href="css/query.css">
   <link rel="stylesheet" href="scss/base.css">
   <link rel="stylesheet" href="scss/blue_nav.css">
+  <link rel="stylesheet" href="scss/tech-talent.css">
 </head>
 
 <body>
@@ -188,26 +189,52 @@
     </div>
   </header>
   <div id="content">
-    <div id="pagename">
-      <div class="section-name">
+    <div id="techTalent">
+      <div class="request-cv">
         <div class="wrapper">
           <div class="inner">
             <div class="title">
-              <h2>This is Title</h2>
+              <h2>
+                Request CV of
+                <span class="position">ERP Consultant</span>
+                <span class="cid">(CID:167445)</span>
+              </h2>
             </div>
-            <div class="article">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis blanditiis inventore eius perferendis
-                alias ipsum? Reprehenderit tempore cum dicta corrupti necessitatibus! Quae, magni tenetur maiores veniam
-                impedit sint quasi deserunt. Ullam laboriosam voluptatibus odio reprehenderit perferendis voluptas,
-                culpa suscipit repellendus quaerat? Recusandae obcaecati ipsam expedita repellat suscipit. Sunt, placeat
-                asperiores?</p>
+            <div class="form-section">
+              <form class="ui form">
+                  <div class="field required">
+                    <label>Company Name</label>
+                    <input type="text" name="" placeholder="Enter your company name">
+                  </div>
+                  <div class="field required">
+                    <label>Your Name</label>
+                    <input type="text" name="" placeholder="Enter your name">
+                  </div>
+                  <div class="field required">
+                    <label>Your Position</label>
+                    <input type="text" name="" placeholder="Enter your position">
+                  </div>
+                  <div class="field required">
+                    <label>Your Phone No.</label>
+                    <input type="tel" name="" placeholder="Enter your phone number">
+                  </div>
+                  <div class="field required">
+                    <label>Email</label>
+                    <input type="email" name="" placeholder="Enter your email">
+                  </div>
+                  <div class="btn">
+                    <a href="/">Request CV</a>
+                  </div>
+              </form>
             </div>
-            <div class="btn gradient">
-              <a href="#">Contact Us</a>
-            </div>
+
           </div>
         </div>
+
+
+
       </div>
+
     </div>
   </div>
   <footer>
@@ -321,7 +348,7 @@
     });
   </script>
   <script>
-    $('.counter').countUp({
+    $('.digit').countUp({
       'time': 1000,
       'delay': 10
     });
