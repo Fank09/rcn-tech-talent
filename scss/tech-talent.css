@@ -439,6 +439,14 @@ h4 {
 #techTalent .request-cv .form-section .btn {
   padding: 2rem 0;
 }
+#techTalent .request-cv .info {
+  width: 80%;
+  margin: auto;
+}
+#techTalent .request-cv .info p {
+  font-size: 1.2em;
+  text-align: center;
+}
 
 @media only screen and (max-width: 768px) {
   #hero-wrap .hero-caption {
@@ -617,5 +625,30 @@ h4 {
   #techTalent .contact .inner .details .list .item .icon i {
     font-size: 24px;
     margin-right: 1rem;
+  }
+  #techTalent .request-cv .title h2 {
+    font-size: 1.2em !important;
+    line-height: 1.5;
+  }
+  #techTalent .request-cv .title h2 .position,
+#techTalent .request-cv .title h2 .cid {
+    display: block;
+    color: #4d4d4d;
+    font-size: 1em;
+  }
+  #techTalent .request-cv .form-section {
+    width: 100%;
+    margin: auto;
+  }
+  #techTalent .request-cv .form-section .btn {
+    padding: 1rem 0;
+  }
+  #techTalent .request-cv .info {
+    width: 100%;
+    margin: auto;
+  }
+  #techTalent .request-cv .info p {
+    font-size: 1.2em;
+    text-align: center;
   }
 }
