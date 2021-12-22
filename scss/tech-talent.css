@@ -342,6 +342,117 @@ h4 {
   font-size: 1em;
   font-weight: normal;
 }
+#techTalent .search .job .job-list ul .jd #formPopup .modal-dialog {
+  max-width: 400px;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content {
+  padding: 1rem 1rem;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .close-btn i {
+  font-size: 18px;
+  color: #4d4d4d;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .position-title {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  color: #4d4d4d;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .position-title span {
+  padding: 0 2px;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .position-title .head {
+  color: #000;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .form-section form {
+  width: 300px;
+  margin: auto;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .form-section form .field {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .form-section form .field label {
+  font-size: 12px;
+  font-weight: 500;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .form-section form .field label::after {
+  margin: 3px 0 0 8px !important;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .form-section form .field input {
+  font-size: 16px !important;
+  height: 35px;
+  padding: 0 0.75rem;
+  border: 1px solid #00a7ff !important;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .form-section form .field input::placeholder {
+  font-size: 12px;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .form-section .button-group {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .form-section .button-group .btn {
+  padding: 0 8px;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .form-section .button-group .btn a {
+  padding: 6px 15px;
+  font-size: 12px;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .form-section .button-group .btn-cancel a {
+  border: 1px solid #707070;
+  background: transparent;
+  color: #707070;
+}
+#techTalent .search .job .job-list ul .jd #formPopup .modal-content .form-section .button-group .btn-cancel a:focus, #techTalent .search .job .job-list ul .jd #formPopup .modal-content .form-section .button-group .btn-cancel a:hover {
+  opacity: 0.8;
+}
+#techTalent .search .job .job-list ul #completedPopup .modal-dialog {
+  max-width: 400px;
+}
+#techTalent .search .job .job-list ul #completedPopup .modal-content {
+  padding: 1rem 1rem;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+#techTalent .search .job .job-list ul #completedPopup .modal-content .close-btn i {
+  font-size: 18px;
+  color: #4d4d4d;
+}
+#techTalent .search .job .job-list ul #completedPopup .modal-content .heading {
+  text-align: center;
+  padding: 2rem 0;
+}
+#techTalent .search .job .job-list ul #completedPopup .modal-content .heading h2 {
+  font-family: "Prompt", sans-serif !important;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #000;
+  margin-bottom: 1rem;
+}
+#techTalent .search .job .job-list ul #completedPopup .modal-content .heading p {
+  padding: 0 2rem;
+}
+#techTalent .search .job .job-list ul #completedPopup .modal-content .heading .btn {
+  padding: 1rem 0;
+}
+#techTalent .search .job .job-list ul #completedPopup .modal-content .heading .btn a {
+  padding: 6px 15px;
+  font-size: 12px;
+}
 #techTalent .contact {
   background-image: url("../images/tech-talent/contact-bg.jpg");
   background-position: center center;
@@ -407,45 +518,6 @@ h4 {
 #techTalent .contact .inner .details .list .item .link a {
   font-size: 1em;
   color: #ffffff;
-}
-#techTalent .request-cv .title h2 {
-  font-size: 1.75em !important;
-}
-#techTalent .request-cv .title h2 .position,
-#techTalent .request-cv .title h2 .cid {
-  color: #4d4d4d;
-}
-#techTalent .request-cv .form-section {
-  width: 500px;
-  margin: auto;
-}
-#techTalent .request-cv .form-section form .field {
-  margin-right: 0;
-  margin-bottom: 1rem;
-}
-#techTalent .request-cv .form-section form .field label {
-  font-size: 16px;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-}
-#techTalent .request-cv .form-section form .field label::after {
-  margin: 3px 0 0 8px !important;
-}
-#techTalent .request-cv .form-section form .field input[type=text] {
-  height: 42px;
-  padding: 0 0.75rem;
-  border: 1px solid #00a7ff !important;
-}
-#techTalent .request-cv .form-section .btn {
-  padding: 2rem 0;
-}
-#techTalent .request-cv .info {
-  width: 80%;
-  margin: auto;
-}
-#techTalent .request-cv .info p {
-  font-size: 1.2em;
-  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -600,6 +672,16 @@ h4 {
   #techTalent .search .job .job-list ul .jd .cv-btn .btn {
     justify-content: center;
   }
+  #techTalent .search .job .job-list ul .jd #formPopup {
+    padding: 0;
+  }
+  #techTalent .search .job .job-list ul .jd #formPopup .modal-dialog {
+    max-width: 100%;
+  }
+  #techTalent .search .job .job-list ul .jd #formPopup .modal-content .form-section form {
+    width: 100%;
+    padding: 0 1rem;
+  }
   #techTalent .contact {
     background-image: url("../images/tech-talent/contact-bg-sp.jpg");
     background-attachment: unset;
@@ -625,30 +707,5 @@ h4 {
   #techTalent .contact .inner .details .list .item .icon i {
     font-size: 24px;
     margin-right: 1rem;
-  }
-  #techTalent .request-cv .title h2 {
-    font-size: 1.2em !important;
-    line-height: 1.5;
-  }
-  #techTalent .request-cv .title h2 .position,
-#techTalent .request-cv .title h2 .cid {
-    display: block;
-    color: #4d4d4d;
-    font-size: 1em;
-  }
-  #techTalent .request-cv .form-section {
-    width: 100%;
-    margin: auto;
-  }
-  #techTalent .request-cv .form-section .btn {
-    padding: 1rem 0;
-  }
-  #techTalent .request-cv .info {
-    width: 100%;
-    margin: auto;
-  }
-  #techTalent .request-cv .info p {
-    font-size: 1.2em;
-    text-align: center;
   }
 }

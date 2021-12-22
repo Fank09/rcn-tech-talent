@@ -360,6 +360,132 @@ h4 {
                 }
               }
             }
+            // Popup Style
+            #formPopup {
+              .modal-dialog {
+                max-width: 400px;
+              }
+              .modal-content {
+                padding: 1rem 1rem;
+                border-radius: 25px;
+                -webkit-border-radius: 25px;
+                -moz-border-radius: 25px;
+                -ms-border-radius: 25px;
+                -o-border-radius: 25px;
+                .close-btn {
+                  i {
+                    font-size: 18px;
+                    color: #4d4d4d;
+                  }
+                }
+                .position-title {
+                  display: block;
+                  text-align: center;
+                  font-size: 14px;
+                  color: #4d4d4d;
+                  margin-bottom: 15px;
+                  font-weight: 500;
+                  span {
+                    padding: 0 2px;
+                  }
+                  .head {
+                    color: #000;
+                  }
+                }
+                .form-section {
+                  form {
+                    width: 300px;
+                    margin: auto;
+                    .field {
+                      margin-right: 0;
+                      margin-bottom: 10px;
+                      label {
+                        font-size: 12px;
+                        font-weight: 500;
+                        &::after {
+                          margin: 3px 0 0 8px !important;
+                        }
+                      }
+                      input {
+                        font-size: 16px !important;
+                        height: 35px;
+                        padding: 0 0.75rem;
+                        border: 1px solid #00a7ff !important;
+                        &::placeholder {
+                          font-size: 12px;
+                        }
+                      }
+                    }
+                  }
+                  .button-group {
+                    width: 100%;
+                    padding-top: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .btn {
+                      padding: 0 8px;
+                      a {
+                        padding: 6px 15px;
+                        font-size: 12px;
+                      }
+                    }
+                    .btn-cancel {
+                      a {
+                        border: 1px solid #707070;
+                        background: transparent;
+                        color: #707070;
+                        &:focus,
+                        &:hover {
+                          opacity: 0.8;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          #completedPopup {
+            .modal-dialog {
+              max-width: 400px;
+            }
+            .modal-content {
+              padding: 1rem 1rem;
+              border-radius: 25px;
+              -webkit-border-radius: 25px;
+              -moz-border-radius: 25px;
+              -ms-border-radius: 25px;
+              -o-border-radius: 25px;
+              .close-btn {
+                i {
+                  font-size: 18px;
+                  color: #4d4d4d;
+                }
+              }
+              .heading {
+                text-align: center;
+                padding: 2rem 0;
+                h2 {
+                  font-family: "Prompt", sans-serif !important;
+                  font-weight: 500;
+                  font-size: 1.5em;
+                  color: #000;
+                  margin-bottom: 1rem;
+                }
+                p {
+                  padding: 0 2rem;
+                }
+                .btn {
+                  padding: 1rem 0;
+                  a {
+                    padding: 6px 15px;
+                    font-size: 12px;
+                  }
+                }
+                
+              }
+            }
           }
         }
       }
@@ -432,51 +558,6 @@ h4 {
             }
           }
         }
-      }
-    }
-  }
-  .request-cv {
-    .title {
-      h2 {
-        font-size: 1.75em !important;
-        .position,
-        .cid {
-          color: #4d4d4d;
-        }
-      }
-    }
-    .form-section {
-      width: 500px;
-      margin: auto;
-      form {
-        .field {
-          margin-right: 0;
-          margin-bottom: 1rem;
-          label {
-            font-size: 16px;
-            margin-bottom: 0.5rem;
-            font-weight: 500;
-            &::after {
-              margin: 3px 0 0 8px !important;
-            }
-          }
-          input[type="text"] {
-            height: 42px;
-            padding: 0 0.75rem;
-            border: 1px solid #00a7ff !important;
-          }
-        }
-      }
-      .btn {
-        padding: 2rem 0;
-      }
-    }
-    .info {
-      width: 80%;
-      margin: auto;
-      p {
-        font-size: 1.2em;
-        text-align: center;
       }
     }
   }
@@ -658,6 +739,20 @@ h4 {
                   justify-content: center;
                 }
               }
+              #formPopup {
+                padding: 0;
+                .modal-dialog {
+                  max-width: 100%;
+                }
+                .modal-content {
+                  .form-section {
+                    form {
+                      width: 100%;
+                      padding: 0 1rem;
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -690,35 +785,6 @@ h4 {
               }
             }
           }
-        }
-      }
-    }
-    .request-cv {
-      .title {
-        h2 {
-          font-size: 1.2em !important;
-          line-height: 1.5;
-          .position,
-          .cid {
-            display: block;
-            color: #4d4d4d;
-            font-size: 1em;
-          }
-        }
-      }
-      .form-section {
-        width: 100%;
-        margin: auto;
-        .btn {
-          padding: 1rem 0;
-        }
-      }
-      .info {
-        width: 100%;
-        margin: auto;
-        p {
-          font-size: 1.2em;
-          text-align: center;
         }
       }
     }
